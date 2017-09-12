@@ -20,6 +20,7 @@ function init() {
         alert( 'Konami!' );
       }
     } else {
+      console.log('entered != else clause')
       indexCounter = 0;
     }
   }

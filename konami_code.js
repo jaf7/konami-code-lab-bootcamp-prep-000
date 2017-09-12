@@ -14,6 +14,7 @@ function init() {
     if ( keyPressed === code[indexCounter] ) {
       indexCounter++;
       if ( indexCounter === code.length ) {
+        console.log('reached alert')
         alert( 'Konami!' );
         indexCounter = 0;
       }

@@ -11,9 +11,9 @@ function init() {
     console.log('keyPressed: ', keyPressed);
     console.log('indexCounter: ', indexCounter);
     console.log('code[indexCounter]: ', code[indexCounter]);
-      debugger
     if ( keyPressed === code[indexCounter] ) {
       indexCounter++;
+        debugger
       // console.log('indexCounter: ', indexCounter);
 
       if ( indexCounter.length === code.length ) {

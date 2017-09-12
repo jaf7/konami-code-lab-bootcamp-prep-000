@@ -13,15 +13,10 @@ function init() {
     console.log('code[indexCounter]: ', code[indexCounter]);
     if ( keyPressed === code[indexCounter] ) {
       indexCounter++;
-        debugger
-      // console.log('indexCounter: ', indexCounter);
-
       if ( indexCounter.length === code.length ) {
         alert( 'Konami!' );
       }
-    } else {
-      console.log('entered != else clause')
-      indexCounter = 0;
+        debugger
     }
   }
 }

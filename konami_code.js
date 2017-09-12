@@ -16,7 +16,6 @@ function init() {
       if ( indexCounter.length === code.length ) {
         alert( 'Konami!' );
       }
-        debugger
     }
   }
 }

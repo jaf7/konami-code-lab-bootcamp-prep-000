@@ -13,7 +13,7 @@ function init() {
     console.log('code[indexCounter]: ', code[indexCounter]);
     if ( keyPressed === code[indexCounter] ) {
       indexCounter++;
-      if ( indexCounter.length === code.length ) {
+      if ( indexCounter === code.length ) {
         alert( 'Konami!' );
         indexCounter = 0;
       }

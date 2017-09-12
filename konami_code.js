@@ -8,13 +8,9 @@ function init() {
 
   function codeCheck(e) {
     let keyPressed = parseInt( e.which || e.detail );
-    // console.log('keyPressed: ', keyPressed);
-    // console.log('indexCounter: ', indexCounter);
-    // console.log('code[indexCounter]: ', code[indexCounter]);
     if ( keyPressed === code[indexCounter] ) {
       indexCounter++;
       if ( indexCounter === code.length ) {
-        console.log('reached alert')
         alert( 'Konami!' );
         indexCounter = 0;
       }
